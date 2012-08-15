@@ -3,11 +3,24 @@
   <head>
     <meta charset="utf_8">
     <title>Generate Receipt</title>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
-    <script src="http://malsup.github.com/jquery.form.js"></script> 	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+    <script src="http://malsup.github.com/jquery.form.js"></script>
+      <script>
+          $(document).ready(function() {
+              $('#receipt').submit(function() {
+                  alert("Generate receipt");
+                  return false;
+              });
+
+              $("#add_item").click(function(){
+                  alert("Added item");
+              });
+          });
+      </script>
+
   </head>
   <body>
-    <form action="" id="receipt">
+    <form method="get" id="receipt">
       <div class="receipt_item">
 		<div class="item_description">
 			<label for="item_type1">Item:</label>
@@ -18,11 +31,11 @@
 				<option value="016">Chocolate Bar</option>
 				<option value="020">Box of Chocolates</option>
 				<option value="024">Bottle of Perfume</option>
-				<option value="660">Packet of Headache Pills</option>
+				<option value="026">Packet of Headache Pills</option>
 			</select>
 		</div>
 		<div class="item_imported">
-			<label for="price1">Imported?</label>
+			<label for="imported1">Imported?</label>
 			<input type="checkbox" id="imported1" name="imported1" />
 		</div>
 		<div class="item_price">
@@ -30,8 +43,8 @@
 			<input type="text" id="price1" name="price1" />
 		</div>
 		<br /> 
-		<input type="button" name="add_item" class="add_item_button" id="add_item" value="Add Item" /> <br /><br />
-		<input type="submit" name="submit" class="submit_button" id="submit_receipt" value="Generate Receipt" /> 
+		<input type="button" class="add_item_button" id="add_item" value="Add Item" /> <br /><br />
+		<input type="submit" class="submit_button" value="Generate Receipt" />
       </div>
 	  
 	
