@@ -1,53 +1,122 @@
 <!doctype html>
 <html>
-  <head>
+<head>
     <meta charset="utf_8">
     <title>Generate Receipt</title>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
     <script src="http://malsup.github.com/jquery.form.js"></script>
-      <script>
-          $(document).ready(function() {
-              $('#receipt').submit(function() {
-                  alert("Generate receipt");
-                  return false;
-              });
+    <script>
+        $(document).ready(function () {
+            $('#receipt').submit(function () {
+                alert("Generate receipt");
+                return false;
+            });
 
-              $("#add_item").click(function(){
-                  alert("Added item");
-              });
-          });
-      </script>
+            $("#add_item").click(function () {
+                alert("Added item");
+            });
+        });
+    </script>
 
-  </head>
-  <body>
-    <form method="get" id="receipt">
-      <div class="receipt_item">
-		<div class="item_description">
-			<label for="item_type1">Item:</label>
-			  <select id="item_type1"  name="item_type1">
-				<option value="000" selected="selected">[choose yours]</option>
-				<option value="008">Book</option>
-				<option value="012">Music CD</option>
-				<option value="016">Chocolate Bar</option>
-				<option value="020">Box of Chocolates</option>
-				<option value="024">Bottle of Perfume</option>
-				<option value="026">Packet of Headache Pills</option>
-			</select>
-		</div>
-		<div class="item_imported">
-			<label for="imported1">Imported?</label>
-			<input type="checkbox" id="imported1" name="imported1" />
-		</div>
-		<div class="item_price">
-			<label for="price1">Shelf price:</label>
-			<input type="text" id="price1" name="price1" />
-		</div>
-		<br /> 
-		<input type="button" class="add_item_button" id="add_item" value="Add Item" /> <br /><br />
-		<input type="submit" class="submit_button" value="Generate Receipt" />
-      </div>
-	  
-	
-    </form>
-  </body>
+</head>
+<body>
+<form method="get" id="receipt">
+    <div class="receipt_item">
+        <div class="item_description">
+            <label for="item_type1">Item:</label>
+            <select id="item_type1" name="item_type1">
+                <option value="000" selected="selected">[choose yours]</option>
+                <option value="008">book</option>
+                <option value="012">music CD</option>
+                <option value="016">chocolate bar</option>
+                <option value="020">box of chocolates</option>
+                <option value="024">bottle of perfume</option>
+                <option value="026">packet of headache pills</option>
+            </select>
+        </div>
+        <div class="item_imported">
+            <label for="imported1">Imported?</label>
+            <input type="checkbox" id="imported1" name="imported1"/>
+        </div>
+        <div class="item_price">
+            <label for="price1">Shelf price:</label>
+            <input type="text" id="price1" name="price1"/>
+        </div>
+        <br/>
+
+        <div class="receipt_item">
+            <div class="item_description">
+                <label for="item_type2">Item:</label>
+                <select id="item_type2" name="item_type2">
+                    <option value="000" selected="selected">[choose yours]</option>
+                    <option value="008">book</option>
+                    <option value="012">music CD</option>
+                    <option value="016">chocolate bar</option>
+                    <option value="020">box of chocolates</option>
+                    <option value="024">bottle of perfume</option>
+                    <option value="026">packet of headache pills</option>
+                </select>
+            </div>
+            <div class="item_imported">
+                <label for="imported2">Imported?</label>
+                <input type="checkbox" id="imported2" name="imported2"/>
+            </div>
+            <div class="item_price">
+                <label for="price2">Shelf price:</label>
+                <input type="text" id="price2" name="price2"/>
+            </div>
+            <br/>
+
+            <div class="receipt_item">
+                <div class="item_description">
+                    <label for="item_type3">Item:</label>
+                    <select id="item_type3" name="item_type3">
+                        <option value="000" selected="selected">[choose yours]</option>
+                        <option value="008">book</option>
+                        <option value="012">music CD</option>
+                        <option value="016">chocolate bar</option>
+                        <option value="020">box of chocolates</option>
+                        <option value="024">bottle of perfume</option>
+                        <option value="026">packet of headache pills</option>
+                    </select>
+                </div>
+                <div class="item_imported">
+                    <label for="imported3">Imported?</label>
+                    <input type="checkbox" id="imported3" name="imported3"/>
+                </div>
+                <div class="item_price">
+                    <label for="price3">Shelf price:</label>
+                    <input type="text" id="price3" name="price3"/>
+                </div>
+                <br/>
+
+                <div class="receipt_item">
+                    <div class="item_description">
+                        <label for="item_type4">Item:</label>
+                        <select id="item_type4" name="item_type4">
+                            <option value="000" selected="selected">[choose yours]</option>
+                            <option value="008">book</option>
+                            <option value="012">music CD</option>
+                            <option value="016">chocolate bar</option>
+                            <option value="020">box of chocolates</option>
+                            <option value="024">bottle of perfume</option>
+                            <option value="026">packet of headache pills</option>
+                        </select>
+                    </div>
+                    <div class="item_imported">
+                        <label for="imported4">Imported?</label>
+                        <input type="checkbox" id="imported4" name="imported4"/>
+                    </div>
+                    <div class="item_price">
+                        <label for="price5">Shelf price:</label>
+                        <input type="text" id="price5" name="price5"/>
+                    </div>
+                    <br/>
+
+                    <input type="submit" class="submit_button" value="Generate Receipt"/>
+                </div>
+
+
+</form>
+</body>
 </html>
