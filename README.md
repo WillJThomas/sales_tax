@@ -7,7 +7,7 @@ You will need to be connected to the Internet though, since there is a dependenc
 The home page shows a form with space to enter details for up to 4 items you've purchased. Click the 'Generate Receipt' button and an itemised receipt with tax breakdown appears at the bottom of the page.
 
 NOTE: I came across an inconsistency in the test plan, which means test case 2 fails. It states in the spec that tax should be rounded to the nearest 5 pence but the expected output for test 2 seems to assume rounding to the nearest pence instead.
-In contrast, test case 3 does assume the correct rounding so it's not possible to satisfy both without an awkward hack. To reflect, I've left some of the automated tests failing. If you run them, as per instructions below you should see the discrepancy between expected behaviour listed in the spec and actual behaviour.
+In contrast, test case 3 does assume the correct rounding so it's not possible to satisfy both without an awkward hack. To reflect this, I've left some of the automated tests failing. If you run them, as per instructions below you should see the discrepancy between expected behaviour listed in the spec and actual behaviour.
 
 === Running tests ===
 
