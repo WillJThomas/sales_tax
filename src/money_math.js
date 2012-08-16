@@ -1,7 +1,6 @@
 function MoneyMath (){
 }
 
-
 MoneyMath.rounded_up_to_nearest_five_pence = function (number_to_round) {
     return Math.ceil(number_to_round * 20) / 20
 }

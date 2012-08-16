@@ -13,6 +13,12 @@ describe("Item", function () {
             expect(chocolate_bar.tax()).toEqual(0);
         });
 
+        it("is 0 on all packets of headache pills", function () {
+            var headache_pills = new Item('packet of headache pills', 4.60);
+
+            expect(headache_pills.tax()).toEqual(0);
+        });
+
         it("is 10% of shelf price on all music CDs", function () {
             var music_CD = new Item('music CD', 1.50);
 

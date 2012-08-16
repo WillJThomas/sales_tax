@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c440405b-579c-4406-beed-977a2e9e5f54" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jsmockito-1.0.4/jsmockito.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/imported_item_spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/item_spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/imported_item.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/money_math.js" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\sales_tax\src\price_math.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecRunner.html" afterPath="$PROJECT_DIR$/SpecRunner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/receipt_spec.js" afterPath="$PROJECT_DIR$/spec/receipt_spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/item_spec.js" afterPath="$PROJECT_DIR$/spec/item_spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/imported_item.js" afterPath="$PROJECT_DIR$/src/imported_item.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/item.js" afterPath="$PROJECT_DIR$/src/item.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/money_math.js" afterPath="$PROJECT_DIR$/src/money_math.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/receipt.js" afterPath="$PROJECT_DIR$/src/receipt.js" />
     </list>
     <ignored path="sales_tax.iws" />
@@ -47,7 +41,7 @@
       <file leaf-file-name="item_spec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/item_spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="31" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
+            <state line="18" column="33" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -65,16 +59,16 @@
       <file leaf-file-name="receipt.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/receipt.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="114" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+            <state line="18" column="5" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="66" selection-start="4720" selection-end="4720" vertical-scroll-proportion="3.3877916">
+            <state line="75" column="59" selection-start="2975" selection-end="2975" vertical-scroll-proportion="-11.769231">
               <folding />
             </state>
           </provider>
@@ -92,16 +86,16 @@
       <file leaf-file-name="item.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/item.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="8" selection-start="829" selection-end="853" vertical-scroll-proportion="0.0">
+            <state line="13" column="42" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imported_item.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="imported_item.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/imported_item.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="32" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
+            <state line="23" column="48" selection-start="647" selection-end="647" vertical-scroll-proportion="0.67066896">
               <folding />
             </state>
           </provider>
@@ -110,7 +104,7 @@
       <file leaf-file-name="money_math.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/money_math.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="37" selection-start="162" selection-end="189" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,15 +129,15 @@
         <option value="$PROJECT_DIR$/src/price_math.js" />
         <option value="$PROJECT_DIR$/src/ImportedItem.js" />
         <option value="$PROJECT_DIR$/spec/imported_item_spec.js" />
-        <option value="$PROJECT_DIR$/src/money_math.js" />
-        <option value="$PROJECT_DIR$/spec/item_spec.js" />
         <option value="$PROJECT_DIR$/src/podcast.js" />
         <option value="$PROJECT_DIR$/SpecRunner.html" />
         <option value="$PROJECT_DIR$/spec/receipt_spec.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/spec/item_spec.js" />
+        <option value="$PROJECT_DIR$/src/money_math.js" />
+        <option value="$PROJECT_DIR$/src/receipt.js" />
         <option value="$PROJECT_DIR$/src/item.js" />
         <option value="$PROJECT_DIR$/src/imported_item.js" />
-        <option value="$PROJECT_DIR$/src/receipt.js" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -321,7 +315,11 @@
       <created>1345107703231</created>
       <updated>1345107703231</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="now working for first two test cases, although code will need refactoring to remove some duplication. In particular Item and ImportedItem have a lot of commonality.">
+      <created>1345130791503</created>
+      <updated>1345130791503</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -405,7 +403,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored some of the functions to make them more readable and ensure they only have one responsibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="now working for first two test cases, although code will need refactoring to remove some duplication. In particular Item and ImportedItem have a lot of commonality." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -421,6 +419,7 @@
     <MESSAGE value="added jasmine to the project - will use this to test my JavaScript functions. Hooked up the add item and generate receipt buttons to dummy functions." />
     <MESSAGE value="can calculate itemised receipt (including tax) for first test case: 1 book, 1 music CD, 1 chocolate bar" />
     <MESSAGE value="refactored some of the functions to make them more readable and ensure they only have one responsibility" />
+    <MESSAGE value="now working for first two test cases, although code will need refactoring to remove some duplication. In particular Item and ImportedItem have a lot of commonality." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -448,30 +447,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/money_math.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="162" selection-end="189" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/imported_item_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="34" selection-start="419" selection-end="419" vertical-scroll-proportion="0.26243567">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/item_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="31" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/imported_item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -483,20 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/receipt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="114" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="8" selection-start="829" selection-end="853" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/receipt_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
@@ -504,9 +468,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/item_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="33" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/money_math.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/receipt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="66" selection-start="4720" selection-end="4720" vertical-scroll-proportion="3.3877916">
+        <state line="75" column="59" selection-start="2975" selection-end="2975" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="42" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/imported_item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="48" selection-start="647" selection-end="647" vertical-scroll-proportion="0.67066896">
           <folding />
         </state>
       </provider>

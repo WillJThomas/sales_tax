@@ -29,7 +29,7 @@ function Receipt() {
     };
 
     var add_imported_item = function (type, shelf_price) {
-        var item = ImportedItem(type, shelf_price)
+        var item = new ImportedItem(type, shelf_price)
         items.push(item)
     };
 

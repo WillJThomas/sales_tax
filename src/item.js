@@ -11,6 +11,7 @@ function Item(type, shelf_price) {
             case "book":
             case "chocolate bar":
             case "box of chocolates":
+            case "packet of headache pills":
                 tax_before_rounding = 0;
                 break;
             default :

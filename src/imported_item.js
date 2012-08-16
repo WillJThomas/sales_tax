@@ -11,7 +11,7 @@ function ImportedItem(type, shelf_price) {
     }
 
     var tax = function () {
-        return MoneyMath.rounded_up_to_nearest_pence(tax_before_rounding());
+        return MoneyMath.rounded_up_to_nearest_five_pence(tax_before_rounding());
     }
 
     var price_including_tax = function () {
