@@ -1,18 +1,27 @@
 function Item(type, shelf_price) {
 
-    var tax = function () {
+    var is_imported = function () {
+        return false;
+    }
+
+    var tax_before_rounding = function() {
         var tax_before_rounding;
 
         switch (type) {
             case "book":
             case "chocolate bar":
+            case "box of chocolates":
                 tax_before_rounding = 0;
                 break;
             default :
                 tax_before_rounding = 10 * shelf_price / 100;
         }
 
-        return MoneyMath.rounded_to_nearest_point_zero_five(tax_before_rounding);
+        return tax_before_rounding;
+    }
+
+    var tax = function () {
+        return MoneyMath.rounded_up_to_nearest_five_pence(tax_before_rounding());
     }
 
     var price_including_tax = function () {
@@ -23,7 +32,8 @@ function Item(type, shelf_price) {
     return {
         type:type,
         price_including_tax:price_including_tax,
-        tax:tax
+        tax:tax,
+        is_imported: is_imported
     };
 }
 ;

@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c440405b-579c-4406-beed-977a2e9e5f54" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/price_math.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jsmockito-1.0.4/jsmockito.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/imported_item_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/item_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/imported_item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/money_math.js" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\sales_tax\src\price_math.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecRunner.html" afterPath="$PROJECT_DIR$/SpecRunner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/receipt_spec.js" afterPath="$PROJECT_DIR$/spec/receipt_spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/item.js" afterPath="$PROJECT_DIR$/src/item.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/receipt.js" afterPath="$PROJECT_DIR$/src/receipt.js" />
     </list>
@@ -28,55 +35,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="0" selection-start="5136" selection-end="5136" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpecRunner.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpecRunner.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="-11.115385">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="item.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/item.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="6" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="price_math.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/price_math.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="receipt.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/receipt.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="24" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="receipt_spec.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="receipt_spec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/receipt_spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="0.33830845">
+            <state line="4" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item_spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/item_spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="31" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,7 +56,61 @@
       <file leaf-file-name="jasmine-jquery.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/jasmine-jquery-1.3.1/jasmine-jquery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="403" column="2" selection-start="12575" selection-end="12575" vertical-scroll-proportion="0.0">
+            <state line="268" column="8" selection-start="7680" selection-end="7680" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="receipt.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/receipt.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="114" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="114" column="66" selection-start="4720" selection-end="4720" vertical-scroll-proportion="3.3877916">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpecRunner.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpecRunner.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="65" selection-start="789" selection-end="1055" vertical-scroll-proportion="-10.192307">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/item.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="8" selection-start="829" selection-end="853" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imported_item.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/imported_item.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="32" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="money_math.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/money_math.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="37" selection-start="162" selection-end="189" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,13 +131,19 @@
       <list>
         <option value="$PROJECT_DIR$/src/Calculator.js" />
         <option value="$PROJECT_DIR$/lib/jasmine-jquery-1.3.1/jasmine-jquery.js" />
-        <option value="$PROJECT_DIR$/spec/receipt_spec.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js" />
-        <option value="$PROJECT_DIR$/src/item.js" />
-        <option value="$PROJECT_DIR$/SpecRunner.html" />
         <option value="$PROJECT_DIR$/src/price_math.js" />
+        <option value="$PROJECT_DIR$/src/ImportedItem.js" />
+        <option value="$PROJECT_DIR$/spec/imported_item_spec.js" />
+        <option value="$PROJECT_DIR$/src/money_math.js" />
+        <option value="$PROJECT_DIR$/spec/item_spec.js" />
+        <option value="$PROJECT_DIR$/src/podcast.js" />
+        <option value="$PROJECT_DIR$/SpecRunner.html" />
+        <option value="$PROJECT_DIR$/spec/receipt_spec.js" />
+        <option value="$PROJECT_DIR$/src/item.js" />
+        <option value="$PROJECT_DIR$/src/imported_item.js" />
         <option value="$PROJECT_DIR$/src/receipt.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -217,10 +248,6 @@
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jasmine-jquery-1.3.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -233,6 +260,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jasmine-jquery-1.3.1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,6 +283,12 @@
       </JSDebuggerConfigurationSettings>
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
@@ -280,7 +317,11 @@
       <created>1345102222797</created>
       <updated>1345102222797</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactored some of the functions to make them more readable and ensure they only have one responsibility">
+      <created>1345107703231</created>
+      <updated>1345107703231</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -310,9 +351,10 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.6003185" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39816234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.6019108" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39808917" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -321,7 +363,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -364,7 +405,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="can calculate itemised receipt (including tax) for first test case: 1 book, 1 music CD, 1 chocolate bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored some of the functions to make them more readable and ensure they only have one responsibility" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -379,6 +420,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="added jasmine to the project - will use this to test my JavaScript functions. Hooked up the add item and generate receipt buttons to dummy functions." />
     <MESSAGE value="can calculate itemised receipt (including tax) for first test case: 1 book, 1 music CD, 1 chocolate bar" />
+    <MESSAGE value="refactored some of the functions to make them more readable and ensure they only have one responsibility" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -399,49 +441,72 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/lib/jasmine-jquery-1.3.1/jasmine-jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="0" selection-start="5136" selection-end="5136" vertical-scroll-proportion="0.0">
+        <state line="268" column="8" selection-start="7680" selection-end="7680" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jasmine-jquery-1.3.1/jasmine-jquery.js">
+    <entry file="file://$PROJECT_DIR$/src/money_math.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="403" column="2" selection-start="12575" selection-end="12575" vertical-scroll-proportion="0.0" />
+        <state line="8" column="37" selection-start="162" selection-end="189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/imported_item_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="34" selection-start="419" selection-end="419" vertical-scroll-proportion="0.26243567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/item_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="31" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/imported_item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="32" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpecRunner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="-11.115385">
+        <state line="18" column="65" selection-start="789" selection-end="1055" vertical-scroll-proportion="-10.192307">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/receipt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+        <state line="11" column="114" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/item.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="6" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/price_math.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+        <state line="35" column="8" selection-start="829" selection-end="853" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/receipt_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="0.33830845">
+        <state line="4" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="66" selection-start="4720" selection-end="4720" vertical-scroll-proportion="3.3877916">
           <folding />
         </state>
       </provider>

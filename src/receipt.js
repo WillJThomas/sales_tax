@@ -3,7 +3,13 @@ function Receipt() {
 
     var printItem = function (item) {
         var item_list = $('#generated-item-list');
-        var text_to_appear_on_receipt = '1 ' + item.type + ' ' + item.price_including_tax();
+
+        var item_text_prefix = '1 ';
+        if(item.is_imported()) {
+            item_text_prefix = item_text_prefix.concat('imported ');
+        }
+
+        var text_to_appear_on_receipt = item_text_prefix + item.type + ' ' + item.price_including_tax().toFixed(2);
         item_list.append(text_to_appear_on_receipt + '<br />');
     }
 
@@ -18,7 +24,12 @@ function Receipt() {
     }
 
     var add_item = function (type, shelf_price) {
-        var item = Item(type, shelf_price)
+        var item = new Item(type, shelf_price)
+        items.push(item)
+    };
+
+    var add_imported_item = function (type, shelf_price) {
+        var item = ImportedItem(type, shelf_price)
         items.push(item)
     };
 
@@ -49,6 +60,7 @@ function Receipt() {
 
     return {
         add_item:add_item,
+        add_imported_item:add_imported_item,
         print:print,
         clear:clear
     };

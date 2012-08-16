@@ -5,15 +5,34 @@
     <title>Generate Receipt</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
     <script src="http://malsup.github.com/jquery.form.js"></script>
+    <script type="text/javascript" src="src/money_math.js"></script>
+    <script type="text/javascript" src="src/item.js"></script>
+    <script type="text/javascript" src="src/imported_item.js"></script>
+    <script type="text/javascript" src="src/receipt.js"></script>
     <script>
         $(document).ready(function () {
             $('#receipt').submit(function () {
-                alert("Generate receipt");
-                return false;
-            });
+                var receipt = Receipt();
 
-            $("#add_item").click(function () {
-                alert("Added item");
+                for (i=0; i<5; i++)
+                {
+                    if ($("#item_type" + i).val() != '[choose yours]' && $("#price" + i).length > 0){
+                        var price = parseFloat($("#price" + i).val());
+                        var item_type = $("#item_type" + i).val();
+                        var is_imported = $('#imported' + i).is(':checked');
+
+                        if (is_imported){
+                            receipt.add_imported_item(item_type, price);
+                        }
+                        else {
+                            receipt.add_item(item_type, price);
+                        }
+                    }
+                }
+
+                receipt.print();
+
+                return false;
             });
         });
     </script>
@@ -25,13 +44,13 @@
         <div class="item_description">
             <label for="item_type1">Item:</label>
             <select id="item_type1" name="item_type1">
-                <option value="000" selected="selected">[choose yours]</option>
-                <option value="008">book</option>
-                <option value="012">music CD</option>
-                <option value="016">chocolate bar</option>
-                <option value="020">box of chocolates</option>
-                <option value="024">bottle of perfume</option>
-                <option value="026">packet of headache pills</option>
+                <option selected="selected">[choose yours]</option>
+                <option>book</option>
+                <option>music CD</option>
+                <option>chocolate bar</option>
+                <option>box of chocolates</option>
+                <option>bottle of perfume</option>
+                <option>packet of headache pills</option>
             </select>
         </div>
         <div class="item_imported">
@@ -48,13 +67,13 @@
             <div class="item_description">
                 <label for="item_type2">Item:</label>
                 <select id="item_type2" name="item_type2">
-                    <option value="000" selected="selected">[choose yours]</option>
-                    <option value="008">book</option>
-                    <option value="012">music CD</option>
-                    <option value="016">chocolate bar</option>
-                    <option value="020">box of chocolates</option>
-                    <option value="024">bottle of perfume</option>
-                    <option value="026">packet of headache pills</option>
+                    <option selected="selected">[choose yours]</option>
+                    <option>book</option>
+                    <option>music CD</option>
+                    <option>chocolate bar</option>
+                    <option>box of chocolates</option>
+                    <option>bottle of perfume</option>
+                    <option>packet of headache pills</option>
                 </select>
             </div>
             <div class="item_imported">
@@ -71,13 +90,13 @@
                 <div class="item_description">
                     <label for="item_type3">Item:</label>
                     <select id="item_type3" name="item_type3">
-                        <option value="000" selected="selected">[choose yours]</option>
-                        <option value="008">book</option>
-                        <option value="012">music CD</option>
-                        <option value="016">chocolate bar</option>
-                        <option value="020">box of chocolates</option>
-                        <option value="024">bottle of perfume</option>
-                        <option value="026">packet of headache pills</option>
+                        <option selected="selected">[choose yours]</option>
+                        <option>book</option>
+                        <option>music CD</option>
+                        <option>chocolate bar</option>
+                        <option>box of chocolates</option>
+                        <option>bottle of perfume</option>
+                        <option>packet of headache pills</option>
                     </select>
                 </div>
                 <div class="item_imported">
@@ -94,13 +113,13 @@
                     <div class="item_description">
                         <label for="item_type4">Item:</label>
                         <select id="item_type4" name="item_type4">
-                            <option value="000" selected="selected">[choose yours]</option>
-                            <option value="008">book</option>
-                            <option value="012">music CD</option>
-                            <option value="016">chocolate bar</option>
-                            <option value="020">box of chocolates</option>
-                            <option value="024">bottle of perfume</option>
-                            <option value="026">packet of headache pills</option>
+                            <option selected="selected">[choose yours]</option>
+                            <option>book</option>
+                            <option>music CD</option>
+                            <option>chocolate bar</option>
+                            <option>box of chocolates</option>
+                            <option>bottle of perfume</option>
+                            <option>packet of headache pills</option>
                         </select>
                     </div>
                     <div class="item_imported">
@@ -108,15 +127,15 @@
                         <input type="checkbox" id="imported4" name="imported4"/>
                     </div>
                     <div class="item_price">
-                        <label for="price5">Shelf price:</label>
-                        <input type="text" id="price5" name="price5"/>
+                        <label for="price4">Shelf price:</label>
+                        <input type="text" id="price4" name="price4"/>
                     </div>
                     <br/>
 
                     <input type="submit" class="submit_button" value="Generate Receipt"/>
                 </div>
 
-
+                <div id="generated-receipt"></div>
 </form>
 </body>
 </html>
