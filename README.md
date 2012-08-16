@@ -15,7 +15,7 @@ I used Jasmine to test parts of the JavaScript - this helped produce a clean des
 
 To run the tests, just point your browser to 'SpecRunner.html' in the base directory, and you'll see a breakdown of tests run and their status.
 
-The tests are located in the 'Spec' folder, and their names follow the pattern '<<source_file_its_testing>>_spec.js'
+The tests are located in the 'Spec' folder, and their names follow the pattern '<source_file_its_testing>_spec.js'
 
 
 === Code structure ===
