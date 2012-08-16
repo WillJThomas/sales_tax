@@ -23,6 +23,8 @@ function Receipt() {
         sale_total.append('Total: ' + total_sale_amount.toFixed(2));
     }
 
+
+
     var add_item = function (type, shelf_price) {
         var item = new Item(type, shelf_price)
         items.push(item)

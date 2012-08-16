@@ -1,6 +1,6 @@
 describe("ImportedItem", function () {
 
-    describe("tax", function () {
+    describe("tax:", function () {
         it("includes 5% import duty on boxes of chocolates", function () {
             var chocolates = ImportedItem('box of chocolates', 10.00);
             expect(chocolates.tax()).toEqual(0.50);

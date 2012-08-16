@@ -1,6 +1,6 @@
 describe("Receipt", function () {
 
-    describe("clear", function () {
+    describe("clear:", function () {
         it("clears all text from the generated-receipt div element and its children", function () {
             var receipt = Receipt();
             var div_element = $('#generated-receipt');
@@ -12,7 +12,7 @@ describe("Receipt", function () {
         });
     });
 
-    describe("print", function() {
+    describe("print:", function() {
         var receipt;
 
         beforeEach(function () {

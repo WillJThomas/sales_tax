@@ -1,6 +1,6 @@
 describe("Item", function () {
 
-    describe("tax", function () {
+    describe("tax:", function () {
         it("is 0 on all books", function () {
             var book = new Item('book', 1.99);
 
